@@ -1,0 +1,246 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	margin-top: 5px;
+}
+
+.head {
+	min-width: 100px;
+	max-width: 100px;
+	color: #706e6e;
+}
+.content {
+	border-top: solid 5px #f54a0c;
+	background-color: #b8caf5;
+	margin: 20px auto 20px auto;
+	width: 90%;
+}
+p {
+	font-size: 12px;
+	color: #706e6e;
+}
+h6 {
+	font-weight: bolder;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+/*BIODATA  */
+
+.biodata {
+	display: flex;
+	justify-content: space-around;
+	gap: 60px;
+}
+.biodata img {
+	width: 200px;
+	border: solid 1px;
+}
+
+.bio-details > p {
+	font-size: 20px;
+	color: #f54a0c;
+}
+.bio {
+	padding-top: 25px;
+}
+.leftandright-biodetails {
+	margin-bottom: 15px;
+	padding-top: 15px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 80px;
+	width: 90%;
+}
+
+.bio-left {
+	display: flex;
+	justify-content: space-between;
+	gap: 50%;
+	width: 80%;
+}
+/* ICONS */
+.icons {
+	margin: 30px auto 30px auto;
+	padding-left: 260px;
+}
+.icons img {
+	width: 25px;
+	border: solid 1px #000;
+	border-radius: 5px;
+}
+.data {
+	padding-left: 50px;
+	padding-right: 150px;
+}
+/* SPECIALITY */
+.speciality {
+	display: flex;
+	justify-content: flex-start;
+	gap: 58px;
+	padding-left: 71px;
+	color: #706e6e;
+}
+
+/* HOBBIES */
+.hobbies {
+	display: flex;
+	justify-content: flex-start;
+	gap: 65px;
+	padding-left: 79px;
+	color: #706e6e;
+	margin-top: 20px;
+}
+
+/* SKILLS */
+.skills-details {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 60px;
+	padding-left: 24px;
+	margin: 20px auto;
+	width: 90%;
+	flex-grow: 1;
+	margin-top: 20px;
+}
+.leftandright-skills {
+	display: flex;
+	justify-content: space-between;
+	gap: 15%;
+	width: 80%;
+}
+.black {
+	color: white;
+	background-color: black;
+	width: 31px;
+	margin-left: 300px;
+	position: absolute;
+	right: -31px;
+}
+
+.htmlborder {
+	border-bottom: 2px solid red;
+	width: 100%;
+	position: relative;
+}
+.cssborder {
+	border-bottom: 2px solid red;
+	width: 60%;
+	position: relative;
+}
+.cborder {
+	border-bottom: 2px solid red;
+	width: 20%;
+	position: relative;
+}
+
+/* EDUCATION */
+.education-details {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 60px;
+	padding-left: 24px;
+	margin: 20px auto;
+	width: 90%;
+	flex-grow: 1;
+	margin-top: 20px;
+}
+.leftandright-education {
+	justify-content: space-between;
+	gap: 15%;
+	width: 80%;
+}
+
+.port {
+	margin-left: -447px;
+}
+.port1 {
+	width: 200px;
+	border: 2px solid gray;
+}
+.port2 {
+	width: 200px;
+	border: 2px solid gray;
+}
+.port3 {
+	width: 200px;
+	border: 2px solid gray;
+}
+.port4 {
+	width: 200px;
+	border: 2px solid gray;
+}
+.con {
+	display: flex;
+	margin-left: 350px;
+	gap: 20px;
+	font-size: x-small;
+}
+/* PORTFOLIO */
+.portfolio-details {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 60px;
+	padding-left: 24px;
+	margin: 20px auto;
+	width: 90%;
+	flex-grow: 1;
+}
+.leftandright-portfolio {
+	display: flex;
+	justify-content: space-between;
+	gap: 15%;
+	width: 80px;
+}
+/* CONTACT */
+.contact-details {
+	display: flex;
+	justify-content: flex-start;
+	gap: 60px;
+	padding-left: 24px;
+	margin: 20px auto;
+	width: 90%;
+	flex-grow: 1;
+}
+.leftandright-contact {
+	display: flex;
+	justify-content: space-between;
+	gap: 15%;
+	width: 80%;
+}
+/* GET IN TOUCH */
+.touch-details {
+	display: flex;
+	justify-content: flex-start;
+	gap: 60px;
+	padding-left: 24px;
+	margin: 20px auto;
+	width: 90%;
+	flex-grow: 1;
+}
+.leftandright-touch {
+	width: 30%;
+	display: flex;
+	color: #706e6e;
+}
+
+input {
+	margin: 5px 0;
+	padding: 2px;
+}
+button {
+	width: 100px;
+	height: 50px;
+	background-color: #f54a0c;
+	border: solid #f54a0c;
+	color: white;
+}
+.com {
+	color: red;
+}
+.wid {
+	width: 100px;
+}
